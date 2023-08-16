@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.header{ 
+    background-image: url("zomatobg1.png");
+    height: 600px;
+    width:100%;
+    background-size: cover;
+   
+} 
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;    
+}
+
+.heading-app{
+    margin-top: 20px;
+
+}
+
+.navbar{
+    display: flex;
+    margin-top: 20px;
+}
+
+.navbarlist{
+    list-style:none;
+    padding-left: 30px;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin-top: 20px; */
+
+}
+.img-logo{
+    /* position: fixed; */
+    position: absolute;
+    top:280px;
+    left:600px;
+}
+.text{
+    font-size: 35px;
+    word-spacing: 8px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* position: fixed; */
+    position: absolute;
+    top:360px;
+    left:400px;
+
+}
+.heading{
+    font-size: 37px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.text1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    color:grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name-restaurant{
+    font-size: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    /* border: 1px solid gray; */
+    margin: 10px;
+    /* width: 90px;  */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    box-shadow:  0  0px 2px 1px  #c2d6d6;
+}
+.img-greater{
+     margin-left: 60px; 
+    
+     /* margin-right: 60px; */
+}
+.btn-restaurunt{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width:350px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    box-shadow:  0  0px 2px 1px rgb(213, 202, 202);
+    border: none;
+    
+}
+.heading1{
+    font-size: 35px;
+    margin-left: 200px;
+    margin-top: 30px;
+    color: black;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}

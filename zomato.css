@@ -101,3 +101,11 @@
     color: black;
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    background-color: rgb(224, 212, 212);
+}
